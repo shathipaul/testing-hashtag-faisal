@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Home = async () => {
-  await new Promise((r) => setTimeout(r, 5500));
+  await new Promise((r) => setTimeout(r, 5500000));
   return (
     <div>
       <main>

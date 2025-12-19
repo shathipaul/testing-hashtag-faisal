@@ -1,5 +1,11 @@
-const LoadingPage = () => {
-  return <div>Page is loading</div>;
+import LottieLoader from "@/components/animations/LottieLoader";
+
+const Loading = () => {
+  return (
+    <div className="h-full">
+      <LottieLoader />
+    </div>
+  );
 };
 
-export default LoadingPage;
+export default Loading;

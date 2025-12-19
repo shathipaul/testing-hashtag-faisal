@@ -1,6 +1,11 @@
-const AboutPage = async () => {
-  await new Promise((r) => setTimeout(r, 5500));
-  return <div>About page</div>;
+import LottieLoader from "@/components/animations/LottieLoader";
+
+const AboutPage = () => {
+  return (
+    <div>
+      <LottieLoader />
+    </div>
+  );
 };
 
 export default AboutPage;
