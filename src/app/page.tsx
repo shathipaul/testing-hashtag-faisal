@@ -1,13 +1,15 @@
-import styles from "./page.module.css";
 import Link from "next/link";
 
-export default function Home() {
+const Home = async () => {
+  await new Promise((r) => setTimeout(r, 5500));
   return (
-    <div className={styles.page}>
+    <div>
       <main>
         Home
         <Link href={"/about"}>Go to about</Link>
       </main>
     </div>
   );
-}
+};
+
+export default Home;
